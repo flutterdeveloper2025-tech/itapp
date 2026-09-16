@@ -1,0 +1,11 @@
+{
+  "appId": "com.itservicedesk.app",
+  "appName": "IT Service Desk",
+  "webDir": "dist",
+  "server": {
+    "cleartext": true
+  },
+  "android": {
+    "allowMixedContent": true
+  }
+}
