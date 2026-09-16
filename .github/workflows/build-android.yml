@@ -54,7 +54,7 @@ jobs:
           if "android.permission.INTERNET" not in s:
               s = s.replace(
                   "</manifest>",
-                  '    <uses-permission android:name="android.permission.INTERNET" />\n</manifest>"
+                  '    <uses-permission android:name="android.permission.INTERNET" />\n</manifest>'
               )
 
           if "android:usesCleartextTraffic" not in s:
